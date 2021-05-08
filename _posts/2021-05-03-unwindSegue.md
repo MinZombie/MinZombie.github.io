@@ -26,7 +26,7 @@ segue와 연결된 액션을 실행할 수 있는지 확인한다.
 
 <br>
 ### 구현 방법
-<img src="/assets/images/unwind1.png">
+<img src="/assets/images/unwind/unwind1.png">
 일단 3개의 뷰가 있고 1번뷰에서 버튼을 누르면 2번뷰로 2번뷰에서 버튼을 누르면 3번뷰 이동하고 3번뷰에서 1번뷰 혹은 2번뷰로 돌아가는 기능을 구현하려 한다.
 
 일단 첫번째로 1번뷰로 가기 위해서 3번뷰의 1번뷰로 가기위한 빨간 버튼을 unwind로 연결해야 하는데 방법은  
@@ -39,7 +39,7 @@ override func viewDidLoad() {
     }
 ```
 가고 싶은 뷰 컨트롤러에서 액션을 위와 같이 구현한다. 그리고
-<img src="/assets/images/unwind2.png">
+<img src="/assets/images/unwind/unwind2.png">
 빨간색 버튼에서 컨트롤키를 누르고 마우스 클릭 후 사진에 있는 3번째 아이콘에 가면 된다. 그러면 방금 구현한 Action의 이름(unwindToFirst)이 나오면 연결해 준다.
 
 그 외에 unwind segue를 제어나 처리하는 패턴을 사용하고 싶을 땐 위에서 소개한 메서드를 사용하면된다.
@@ -68,4 +68,4 @@ shouldPerformSegue호출이 되고 뷰 컨트롤러를 찾고 true를 반환하�
 
 #### 결과
 ***
-<img src="/assets/images/unwind3.gif">
+<img src="/assets/images/unwind/unwind3.gif">
