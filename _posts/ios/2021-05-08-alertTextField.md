@@ -1,4 +1,3 @@
-텍스트 필드는 alert 스타일에서만 가능
 ---
 title: "[iOS] Alert안에 TextField 구현하기"
 excerpt: "경고창에 텍스트 필드 추가, 텍스트필드 커스터마이징"
