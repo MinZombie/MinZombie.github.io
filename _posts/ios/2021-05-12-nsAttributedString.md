@@ -27,8 +27,11 @@ NSAttributedString 객체는 문자열에 관련된 속성(폰트, 문자 사이
 <br>
 ### 참고하면 좋은 사이트
 [Apple Developer](https://developer.apple.com/documentation/foundation/nsattributedstring)
+<br>
 [Attributed String Programming Guide](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/AttributedStrings/AttributedStrings.html#//apple_ref/doc/uid/10000036-BBCCGDBG)
+<br>
 [Hacking With Swift](https://www.hackingwithswift.com/articles/113/nsattributedstring-by-example)
+<br>
 ***
 <br>
 NSAttributedString에 대해서 더 깊게 공부 하고 싶었는데 내용이 너무 어려웠다. 모르는 걸 다 찾다보니 양이 계속 늘어나서 일단은 지금 실력에서 모든 걸 알려고 하지 말고 어느정도만 받아들이고 익숙해 지는 것에 집중해야한다. 그리고나서 나중에 더 깊게 공부하면 된다.
