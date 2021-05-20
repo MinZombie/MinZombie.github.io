@@ -60,9 +60,9 @@ func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, for
 
 # 서브클래스 이용해서 커스텀 헤더 만들기
 ***
-<img src="/assets/images/ios/customHeader/01.png">
+<img src="/assets/images/ios/customSection/01.png">
 <br>
-<img src="/assets/images/ios/customHeader/02.png">
+<img src="/assets/images/ios/customSection/02.png">
 <br>
 View xib 파일을 만들어 주고 그 안에서 원하는 헤더를 만들어주고, 코코아 터치 클래스에서 UITableViewHeaderFooterView 클래스 파일을 만들고 그 안에 변수를 만들어서 xib 만든 것과 연결해서 사용하면 된다.  
 <br>
