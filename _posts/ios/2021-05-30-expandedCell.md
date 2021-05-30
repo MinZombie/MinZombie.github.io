@@ -51,7 +51,6 @@ extension ViewController: UITableViewDelegate {
         // 2.
         tableView.beginUpdates()
         tableView.endUpdates()
-        tableView.scrollToRow(at: indexPath, at: .top, animated: true)
         
     }
 }
@@ -59,3 +58,7 @@ extension ViewController: UITableViewDelegate {
 셀을 탭하면 ui가 변하기 때문에 UITableViewDelegate 프로토콜을 채택하고 몇번째 셀이 탭이 되었는지 알아야 하기 때문에 cellForRow 메서드를 사용한다.
 1. 셀을 탭하면 isExpanded 값이 토글이 된다(true <-> false). 그리고 list 배열에 바뀐 값을 저장한다. 이렇게 하는 이유는 구조체(위에서 만든 Data라는 구조체)를 사용하기 때문이다. 구조체는 인스턴스를 복사하기 때문에 target의 값을 바꿔도 list의 값은 바뀌지 않는다.
 
+2. tableView의 insert, reload, delete, selection 등의 작업을 애니메이션과 함께 처리할 수 있다. 셀이 탭이 되면 셀을 리로드 해줘야 ui가 업데이트 되면서 모든 데이터가 표시가 된다.
+<br>
+<br>
+<img src="/assets/images/ios/expandedCell/01.gif" width=480>
