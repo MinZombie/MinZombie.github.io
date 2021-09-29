@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "MinZombie"
-  avatar           : "/assets/images/profile_image/profile_image.jpg"
+  avatar           : #
   bio              : "I am an **amazing** person."
   location         : "Seoul"
   email            :
