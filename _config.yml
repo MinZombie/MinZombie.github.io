@@ -16,7 +16,7 @@ minimal_mistakes_skin    : # "air", "aqua", "contrast", "dark", "dirt", "neon", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "알고 있으면 쓸데 있는 블로그🧑🏼‍💻"
+title                    : "알고 있으면 쓸데있는 블로그🧑🏼‍💻"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "MinZombie"
@@ -95,9 +95,9 @@ analytics:
 # Site Author
 author:
   name             : "MinZombie"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : #
   bio              : "I am an **amazing** person."
-  location         : "DE - Dortmund"
+  location         : "Seoul"
   email            :
   links:
     - label: "Email"
