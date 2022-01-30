@@ -4,3 +4,6 @@ main:
     url: https://minzombie.github.io/
   - title: "Categories"
     url: /categories/
+  - title: "Others"
+    url: /others/
+  
