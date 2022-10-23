@@ -1,4 +1,13 @@
-# DerivedData에 있는 폴더 정리 후 SPM 라이브러리 못찾는 문제
+
+---
+title: "DerivedData에 있는 폴더 정리 후 SPM 라이브러리 못찾는 문제"
+
+categories:
+  - ios
+tags:
+  - ios
+  - spm
+---
 
 아래와 같은 에러가 뜨면서 빌드가 안되는데
 
