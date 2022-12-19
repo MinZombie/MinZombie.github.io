@@ -76,6 +76,11 @@ ins {
   }
 }
 
+// 구글 애드 센스 아래 라인 삭제
+ins.adsbygoogle {
+  border-bottom: none !important;
+}
+
 del a {
   color: inherit;
 }
